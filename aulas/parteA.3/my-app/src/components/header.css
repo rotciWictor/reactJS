@@ -1,0 +1,26 @@
+header{
+    display:flex
+  }
+  
+  .site-header{
+    display: flex;
+    align-items:center;
+    background-color: #5DCE87;
+    height:7vh;
+    width:78vw;
+  }
+  
+  .header-detail{
+    background-color: #4DAC6C;
+    height: 7vh;
+    width: 11vw;
+  }
+  
+  .header-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5DCE87;
+    height: 7vh;
+    width: 11vw;
+  }
