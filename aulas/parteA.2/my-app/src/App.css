@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+header{
+  display:flex
+}
+
+.site{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#E7E7E7;
+}
+
+.site-header{
+  display: flex;
+  align-items:center;
+  background-color: #5DCE87;
+  height:7vh;
+  width:78vw;
+}
+
+.header-detail{
+  background-color: #4DAC6C;
+  height: 7vh;
+  width: 11vw;
+}
+
+.header-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5DCE87;
+  height: 7vh;
+  width: 11vw;
+}
+
+.body{
+  display: flex;
+  background-color:#E7E7E7;
+  justify-content: center;
+  align-items: center;
+  height:91vh;
+  width:100%;
+}
+
+.page{
+  background-color:white;
+  height:70vh;
+  width:78vw;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:4.5vh;
+  width:9vw;
+  color:#4DAC6C;
+  border-radius:2em;
+  font-family: 'Jockey One', sans-serif;
+  font-weight:bold;
+  font-size:1.2em;
+  margin-left:4em;
+}
+
+#btn1,.btn:hover{
+  background-color:white;
+  cursor: pointer;
+}
