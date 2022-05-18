@@ -1,5 +1,4 @@
-import "./header.css";
-import user from "../assets/Group1.png";
+//import "./header.css"
 import Button from "./button.jsx";
 
 function Header() {
@@ -8,12 +7,12 @@ function Header() {
       <div className="header-detail"></div>
       <nav className="site-header">
         <Button className="btn" id="btn1" innerText="Início" />
-        <Button className="btn" id="" innerText="Btn2" />
-        <Button className="btn" id="" innerText="Btn3" />
-        <Button className="btn" id="" innerText="Btn4" />
+        <Button className="btn"  innerText="BTN2" />
+        <Button className="btn"  innerText="BTN3" />
+        <Button className="btn"  innerText="BTN4" />
       </nav>
       <div className="header-profile">
-        <img src={user} alt="user" srcset="user" />
+        <img src="./user.png" alt="user"/>
       </div>
     </header>
   );

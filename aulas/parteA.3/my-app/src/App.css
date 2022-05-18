@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&family=Jockey+One&display=swap');
 
 header{
   display:flex
@@ -8,17 +9,166 @@ header{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color:#E7E7E7;
 }
 
-.body{
+.site-header{
+  display: flex;
+  align-items:center;
+  background-color: #5DCE87;
+  height:7vh;
+  width:78vw;
+}
+
+.header-detail{
+  background-color: #4DAC6C;
+  height: 7vh;
+  width: 11vw;
+}
+
+.header-profile{
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #5DCE87;
+  height: 7vh;
+  width: 11vw;
+}
+
+main{
+  display: flex;
+  background-color:#E7E7E7;
+  flex-direction: column;
   align-items: center;
   height:91vh;
   width:100%;
 }
 
-.page{
-  height:70vh;
+.form{
+  background-color:#F2F2F2;
+  height:20vh;
   width:78vw;
+  margin-top: 2em;
+}
+.showcase{
+  background-color:#F2F2F2;
+  height:35vh;
+  width:70vw;
+  margin-top: 5em;
+  padding: 5vh 4vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:4.5vh;
+  width:9vw;
+  color:#4DAC6C;
+  border-radius:2em;
+  font-family: 'Jockey One', sans-serif;
+  font-weight:bold;
+  font-size:1.2em;
+  margin-left:4em;
+}
+
+#btn1,.btn:hover{
+  background-color:white;
+  cursor: pointer;
+}
+
+.form{
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputs{
+  display: flex;
+  flex-wrap:wrap;
+  height: 20vh;
+  width: 50vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.locale,.date,.description{
+  height: 3vh;
+  width: 22.5vw;
+  border-radius: 2em;
+  border:none;
+  font-family: 'Jockey One', sans-serif;
+  font-weight:bold;
+  font-size: large;
+  padding: 1em;
+  color: black;
+}
+
+.description{
+  width: 50vw;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.addButton,.clearButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:5vh;
+  width: 15vw;
+  color: white;
+  border-radius: 2em;
+  margin-bottom: 3vh;
+  font-family: 'Jockey One', sans-serif;
+  font-weight:bold;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.addButton{
+  background-color: #4DAC6C;
+}
+
+.clearButton{
+  background-color: #E1B84F;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 18vh;
+  width:18vw;
+  background-color: white;
+  color: #D2D2D2;
+  border-radius: 2em;
+  font-family: 'Jaldi', sans-serif;
+  padding-top: 2.5vh;
+}
+
+.card-date{
+  font-family: 'Jockey One', sans-serif;
+}
+
+.card-locale{
+  font-size: x-large;
+}
+
+.card-description{
+  color: #5FD9A4;
+}
+
+.close{
+  position: relative;
+  left: 7vw;
+  bottom: 20vh;
+  cursor: pointer;
 }
