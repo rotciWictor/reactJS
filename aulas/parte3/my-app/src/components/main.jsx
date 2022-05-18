@@ -16,6 +16,7 @@ function Main() {
         </div>
         <div className="showcase">
             <Card />
+            <Card />
         </div>
     </main>
   );
